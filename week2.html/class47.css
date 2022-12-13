@@ -1,0 +1,22 @@
+div#container ul.my-songs li{
+    color: brown;
+    background: yellow;
+}
+
+/* how to calculate specificity */
+/* inline style attribute > no of id > no of classes> no of elements */
+/* specificity: 0,1,1,3 */
+
+/* .favourite{
+    color:yellowgreen;
+    background: brown;
+} */
+
+/* specificity: 0,0,1,0 */
+
+div#container ul.my-songs li.favourite{
+    color: yellow;
+    background: brown;
+}
+
+/* specificity:0,1,2,3 */
